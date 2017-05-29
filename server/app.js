@@ -1,4 +1,5 @@
-import express from 'express'
+const express = require('express');
+
 
 const publicPath = __dirname + '/../public'
 
@@ -8,4 +9,4 @@ app.use(express.static(publicPath));
 //Middleware
 
 
-export default app
+module.exports = app;

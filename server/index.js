@@ -1,5 +1,5 @@
-import app from './app'
-import config from './../config/config'
+const app = require('./app');
+const config = require('./../config/config');
 
 const port = process.env.PORT;
 
