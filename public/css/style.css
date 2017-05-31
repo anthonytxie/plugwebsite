@@ -84,7 +84,9 @@ img {
 }
 
 .left-padding {
-	padding: 20px;
+	padding-top: 10px;
+	padding-right: 30px;
+	right: 45%;
 }
 
 .uppercase {
@@ -493,13 +495,16 @@ a.expand {
 	z-index: 2;
 }
 .slider-text h2{
+	font-weight:300;
+
 	font-family: 'Roboto', sans-serif;
 	font-size: 58px;
 	color: #FFFFFF;
 	margin-top:100px;
+
 }
 .slider-text h2 span{
-
+	font-weight:300;
 }
 .slider-text  p {
 	font-family: 'Roboto';
@@ -570,8 +575,6 @@ a.expand {
 
 
 .plug-logo {
-	 width: 30%;
-	 height: 30%;
 	 max-width: 30%;
 	 max-height: 30%;
 }
