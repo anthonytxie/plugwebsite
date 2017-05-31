@@ -63,6 +63,9 @@ img {
 	max-width:100%;
 }
 
+#backdrop {
+	width:100%;
+}
 
 .relative {
 	position: relative;
@@ -491,14 +494,12 @@ a.expand {
 }
 .slider-text h2{
 	font-family: 'Roboto', sans-serif;
-	text-transform:uppercase;
 	font-size: 58px;
 	color: #FFFFFF;
-	font-weight: 300;
 	margin-top:100px;
 }
 .slider-text h2 span{
-	font-weight:800;
+
 }
 .slider-text  p {
 	font-family: 'Roboto';
